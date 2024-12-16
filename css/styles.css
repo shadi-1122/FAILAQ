@@ -1,8 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #2e2e2e;
+    background-color: #3f3f3f;
     margin: 0;
     padding: 0;
+    overflow-y: hidden;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 /* Centered Login Form */
@@ -10,7 +20,7 @@ body {
     max-width: 300px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #e2d0c0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
 }
@@ -19,27 +29,32 @@ body {
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
+    color: black;
 }
 
 .login-form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    background-color: #e2d0c0;
+    color: #8b4121;
 }
 
 .login-form input {
     width: 90%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #8b4121;
     border-radius: 8px;
     font-size: 16px;
+    background-color: #e2d0c0;
+    color: #8b4121;
 }
 
 .login-form button {
     width: 100%;
     padding: 10px;
-    background-color: #ba6c2b;
+    background-color: #8b4121;
     color: white;
     border: none;
     border-radius: 8px;
@@ -48,7 +63,7 @@ body {
 }
 
 .login-form button:hover {
-    background-color: #af4f00;
+    background-color: #ad522b;
 }
 
 .img{
@@ -65,102 +80,3 @@ body {
     text-align: center;
 }
 
-/* Dashboard Menu Styles */
-header {
-    background-color: #ba6c2b;
-    padding: 10px 20px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 20px;
-}
-
-header nav ul li {
-    display: inline-block;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-header nav ul li a:hover {
-    color: #a56a39;
-}
-
-header button {
-    background-color: #ba6c2b;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-header button:hover {
-    background-color: #a56a39;
-}
-
-/* Dashboard Cards */
-.main-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-}
-
-.card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    width: 45%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.card h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.card p {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.card button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
-.card button:hover {
-    background-color: #45a049;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    margin-top: 20px;
-}
