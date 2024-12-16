@@ -118,3 +118,8 @@ function loadArtsFest(artsFestDocuments) {
 function viewArtsFestDocument(pdfUrl) {
     window.open(pdfUrl, '_blank');
 }
+
+
+function reload(){
+    location.reload();
+}
